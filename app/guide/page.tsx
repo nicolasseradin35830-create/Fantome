@@ -21,6 +21,15 @@ export default function Guide() {
 
       <h2>Calculez votre économie</h2>
       <p>Additionnez les montants mensuels des abonnements résiliés, puis multipliez par 12 : c’est ce que vous économisez sur un an.</p>
-    </main>
+            <h2>Lettre de résiliation prête à copier</h2>
+        <p>Remplacez les mots entre crochets, puis envoyez la lettre par e-mail au service client.</p>
+        <div style={{ background: "#f4f4f4", padding: 16, borderRadius: 8 }}>
+          <p>Objet : Demande de résiliation de mon abonnement</p>
+          <p>Madame, Monsieur,</p>
+          <p>Je souhaite résilier mon abonnement [nom du service], souscrit avec l’adresse e-mail [votre e-mail] (numéro de client : [numéro, si vous l’avez]).</p>
+          <p>Merci de prendre en compte cette résiliation dès réception de ce message, de stopper tout prélèvement futur et de me confirmer la résiliation par e-mail, avec la date de fin effective.</p>
+          <p>Dans l’attente de votre confirmation, je vous prie d’agréer, Madame, Monsieur, mes salutations distinguées.</p>
+          <p>[Votre nom] – [Date]</p>
+        </div></main>
   );
 }
